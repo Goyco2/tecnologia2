@@ -11,10 +11,11 @@ import { AppRoutingModule } from './app-routing.module'; // Importa il modulo di
   declarations: [
     AppComponent,
     LoginComponent,
-    MapComponent
+    MapComponent,
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     FormsModule,
     AppRoutingModule  // Aggiungi AppRoutingModule qui
   ],
