@@ -1,0 +1,28 @@
+[
+    {
+      "setNumber": "6080",
+      "theme": "Castle",
+      "name": "King's Castle",
+      "year": 1984,
+      "image": "assets/lego-images/6080.jpg",
+      "instructions": "https://letsbuilditagain.com/instructions/6080/"
+    },
+    {
+      "setNumber": "1782",
+      "theme": "Creator Expert",
+      "name": "Old Trafford - Manchester United",
+      "year": 2020,
+      "image": "assets/lego-images/10272.jpg",
+      "instructions": "https://letsbuilditagain.com/instructions/1782/"
+    },
+    {
+      "setNumber": "8630",
+      "theme": "Ideas",
+      "name": "Tree House",
+      "year": 2019,
+      "image": "assets/lego-images/21318.jpg",
+      "instructions": "https://letsbuilditagain.com/instructions/8630/"
+    }
+  ]
+
+  

@@ -1,0 +1,13 @@
+<div class="container" *ngIf="legoSet">
+    <div class="card">
+      <img [src]="legoSet.image" class="card-img-top" alt="{{ legoSet.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ legoSet.name }}</h5>
+        <p class="card-text">Set Number: {{ legoSet.setNumber }}</p>
+        <p class="card-text">Theme: {{ legoSet.theme }}</p>
+        <p class="card-text">Year: {{ legoSet.year }}</p>
+        <a [href]="legoSet.instructions" target="_blank" class="btn btn-primary">Download Instructions</a>
+      </div>
+    </div>
+  </div>
+  

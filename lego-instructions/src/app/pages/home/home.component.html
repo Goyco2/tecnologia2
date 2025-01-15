@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let set of legoSets">
+        <div class="card">
+          <img [src]="set.image" class="card-img-top" alt="{{ set.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ set.name }}</h5>
+            <p class="card-text">Theme: {{ set.theme }}</p>
+            <p class="card-text">Year: {{ set.year }}</p>
+            <a [routerLink]="['/instructions', set.setNumber]" class="btn btn-primary">View Instructions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
